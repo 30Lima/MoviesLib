@@ -1,6 +1,8 @@
 import { View, StyleSheet, Text } from "react-native"
 
 const MovieDetailsScreen = () => {
+
+    const navigation = useNavigation();
  return(
     <View
         style ={styles.container}

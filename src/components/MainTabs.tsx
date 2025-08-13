@@ -36,16 +36,19 @@ export default function MainTabs() {
                 <Tab.Screen 
                 name="MovieListScreen"
                 component={MovieListScreen}
+                options={{ title: "Filmes"}}
                 />
 
                  <Tab.Screen 
                 name="MapScreen"
                 component={MapScreen}
+                options={{ title: "Mapas"}}
                 />
 
                  <Tab.Screen 
                 name="SettingsScreen"
                 component={SettingsScreen}
+                options={{ title: "Ajustes"}}
                 />
 
         </Tab.Navigator>
